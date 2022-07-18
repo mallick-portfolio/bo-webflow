@@ -1,11 +1,12 @@
 import React from "react";
-import { Banner, Philosophy } from "../../components";
+import { AnimationText, Banner, Philosophy } from "../../components";
 
 const Home = () => {
   return (
     <div>
       <Banner />
       <Philosophy />
+      <AnimationText />
     </div>
   );
 };

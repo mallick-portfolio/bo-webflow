@@ -16,10 +16,7 @@ const Philosophy = () => {
             The driving force of all speeches, we believe that creation should
             be the point around which any communication strategy revolves.
           </h2>
-          <a
-            className="uppercase text-sm font-black px-8 py-4 border border-accent rounded-full text-accent hover:text-white hover:bg-accent hover:duration-500 hover:transition-all"
-            href="/"
-          >
+          <a className="cmn-btn" href="/">
             Meet the team
           </a>
         </div>

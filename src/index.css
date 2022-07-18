@@ -41,4 +41,7 @@ body {
   .social-icon {
     @apply text-xl mx-auto mt-3 relative z-40;
   }
+  .cmn-btn {
+    @apply uppercase text-sm font-black px-8 py-4 border border-accent rounded-full text-accent hover:text-white hover:bg-accent hover:duration-500 hover:transition-all
+  }
 }
