@@ -12,7 +12,7 @@ import {
 const Home = () => {
   return (
     <div>
-      <Banner />
+      <Banner title={"We're creative digital studio."} headline="Hello people!" />
       <Philosophy />
       <AnimationText />
       <CategoryParallex />
