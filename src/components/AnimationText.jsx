@@ -1,10 +1,10 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
-const AnimationText = () => {
+const AnimationText = ({ title }) => {
   return (
     <div className="my-16">
-      <Marquee className="text-primary text-[8vw] font-bold">
-        Featured Work. Featured Work. Featured Work
+      <Marquee speed={80} className="text-primary text-[8vw] font-bold">
+        {title}
       </Marquee>
     </div>
   );

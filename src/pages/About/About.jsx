@@ -1,5 +1,5 @@
 import React from "react";
-import { Banner, Philosophy } from "../../components";
+import { AnimationText, Banner, Philosophy } from "../../components";
 
 const About = () => {
   return (
@@ -9,6 +9,7 @@ const About = () => {
         headline={"About Bo Studio"}
       />
       <Philosophy />
+      <AnimationText title={"The Team. The Team. The Team. The Team "} />
     </div>
   );
 };

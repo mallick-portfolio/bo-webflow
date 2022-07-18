@@ -12,9 +12,12 @@ import {
 const Home = () => {
   return (
     <div>
-      <Banner title={"We're creative digital studio."} headline="Hello people!" />
+      <Banner
+        title={"We're creative digital studio."}
+        headline="Hello people!"
+      />
       <Philosophy />
-      <AnimationText />
+      <AnimationText title={"Featured Work. Featured Work. Featured Work"} />
       <CategoryParallex />
       <Services />
       <TeamAndCompany />
