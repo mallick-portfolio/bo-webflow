@@ -3,6 +3,9 @@ import {
   AnimationText,
   Banner,
   Philosophy,
+  Services,
+  Talk,
+  TeamAndCompany,
   TeamMember,
 } from "../../components";
 
@@ -16,6 +19,9 @@ const About = () => {
       <Philosophy />
       <AnimationText title={"The Team. The Team. The Team. The Team "} />
       <TeamMember />
+      <Services />
+      <TeamAndCompany />
+      <Talk />
     </div>
   );
 };

@@ -7,7 +7,7 @@ import webflow from "../assets/images/webflow.png";
 import show from "../assets/images/snow.svg";
 const TeamAndCompany = () => {
   return (
-    <div className="bg-primary">
+    <div className="bg-primary py-16">
       <div className="px-12 mx-auto">
         <h1 className="text-white text-center text-xl mb-4 font-bold">
           Teams and companies we work with
