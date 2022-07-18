@@ -5,6 +5,7 @@ import {
   CategoryParallex,
   Philosophy,
   Services,
+  TeamAndCompany,
 } from "../../components";
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <AnimationText />
       <CategoryParallex />
       <Services />
+      <TeamAndCompany />
     </div>
   );
 };
