@@ -5,6 +5,7 @@ import {
   CategoryParallex,
   Philosophy,
   Services,
+  Talk,
   TeamAndCompany,
 } from "../../components";
 
@@ -17,6 +18,7 @@ const Home = () => {
       <CategoryParallex />
       <Services />
       <TeamAndCompany />
+      <Talk />
     </div>
   );
 };

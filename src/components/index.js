@@ -5,3 +5,4 @@ export { default as AnimationText } from "./AnimationText.jsx";
 export { default as CategoryParallex } from "./CategoryParallex.jsx";
 export { default as Services } from "./Services.jsx";
 export { default as TeamAndCompany } from "./TeamAndCompany.jsx";
+export { default as Talk } from "./Talk.jsx";
