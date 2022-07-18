@@ -3,6 +3,7 @@ import logo from "../assets/images/logo.png";
 import { BsCart4 } from "react-icons/bs";
 import { AiOutlineMenu } from "react-icons/ai";
 import { ImCross } from "react-icons/im";
+import { NavLink } from "react-router-dom";
 const Header = () => {
   const [active, setActive] = useState(false);
   return (
@@ -19,10 +20,10 @@ const Header = () => {
           <nav className="hidden lg:flex">
             <ul className="md:flex items-center">
               <li className="text-lg font-semibold text-black mr-6 nav-item">
-                Home
+                <NavLink to={"/"}>Home</NavLink>
               </li>
               <li className="text-lg font-semibold text-black mr-6 nav-item">
-                About
+                <NavLink to={"/about"}> About</NavLink>
               </li>
               <li className="text-lg font-semibold text-black mr-6 nav-item">
                 Work
@@ -50,10 +51,10 @@ const Header = () => {
       >
         <ul className="">
           <li className="text-lg font-semibold text-black mr-6 nav-item">
-            Home
+            <NavLink to={"/"}>Home</NavLink>
           </li>
           <li className="text-lg font-semibold text-black mr-6 nav-item">
-            About
+            <NavLink to={"/about"}>About</NavLink>
           </li>
           <li className="text-lg font-semibold text-black mr-6 nav-item">
             Work

@@ -24,7 +24,7 @@ body {
 
 @layer utilities {
   .banner-title {
-    @apply text-primary text-[8vw] leading-none font-bold;
+    @apply text-primary text-[7vw] leading-none font-bold;
   }
   .banner-image {
     @apply mr-36 relative after:left-0 after:right-0 after:top-0 after:bottom-0 after:bg-accent after:absolute after:rounded-full after:scale-0 hover:after:scale-100 hover:after:duration-700 hover:after:transition-all cursor-pointer rounded-full p-4;

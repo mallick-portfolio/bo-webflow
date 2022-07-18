@@ -20,7 +20,7 @@ const Banner = ({ title, headline }) => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center mt-4">
+      <div className="flex justify-center items-center mt-16">
         <ul className="flex">
           <li className="social-item">
             <FiInstagram className="social-icon" />
