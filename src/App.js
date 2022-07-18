@@ -1,14 +1,14 @@
 import React from "react";
-import { Header } from "./components";
-import Home from "./pages/Home/Home.jsx";
+import { Header, Footer } from "./components";
+import { Home, About } from "./pages/index.js";
 import { Routes, Route } from "react-router-dom";
-import Footer from "./components/Footer.jsx";
 const App = () => {
   return (
     <div className="">
       <Header />
       <Routes>
         <Route path={"/"} element={<Home />} />
+        <Route path={"/about"} element={<About />} />
       </Routes>
       <Footer />
     </div>
