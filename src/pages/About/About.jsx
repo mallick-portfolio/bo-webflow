@@ -1,5 +1,10 @@
 import React from "react";
-import { AnimationText, Banner, Philosophy } from "../../components";
+import {
+  AnimationText,
+  Banner,
+  Philosophy,
+  TeamMember,
+} from "../../components";
 
 const About = () => {
   return (
@@ -10,6 +15,7 @@ const About = () => {
       />
       <Philosophy />
       <AnimationText title={"The Team. The Team. The Team. The Team "} />
+      <TeamMember />
     </div>
   );
 };
