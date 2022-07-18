@@ -18,24 +18,7 @@ const Header = () => {
           </div>
           {/* Desktop Menu */}
           <nav className="hidden lg:flex">
-            <ul className="md:flex items-center">
-              <li className="text-lg font-semibold text-black mr-6 nav-item">
-                <NavLink to={"/"}>Home</NavLink>
-              </li>
-              <li className="text-lg font-semibold text-black mr-6 nav-item">
-                <NavLink to={"/about"}> About</NavLink>
-              </li>
-              <li className="text-lg font-semibold text-black mr-6 nav-item">
-                Work
-              </li>
-              <li className="text-lg font-semibold text-black mr-6 nav-item">
-                News
-              </li>
-              <li className="text-lg font-semibold text-black mr-6 nav-item">
-                Contact
-              </li>
-              <li className="text-lg font-semibold text-black mr-6 nav-item"></li>
-            </ul>
+            <ul className="md:flex items-center">{menus}</ul>
           </nav>
           <div className="lg:mr-0 mr-6">
             <BsCart4 className="cursor-pointer font-bold text-lg" />
@@ -49,27 +32,26 @@ const Header = () => {
           active ? "top-12 left-12" : "-top-64 left-12"
         }`}
       >
-        <ul className="">
-          <li className="text-lg font-semibold text-black mr-6 nav-item">
-            <NavLink to={"/"}>Home</NavLink>
-          </li>
-          <li className="text-lg font-semibold text-black mr-6 nav-item">
-            <NavLink to={"/about"}>About</NavLink>
-          </li>
-          <li className="text-lg font-semibold text-black mr-6 nav-item">
-            Work
-          </li>
-          <li className="text-lg font-semibold text-black mr-6 nav-item">
-            News
-          </li>
-          <li className="text-lg font-semibold text-black mr-6 nav-item">
-            Contact
-          </li>
-          <li className="text-lg font-semibold text-black mr-6 nav-item"></li>
-        </ul>
+        <ul className="">{menus}</ul>
       </nav>
     </>
   );
 };
 
+const menus = (
+  <>
+    <li className="text-lg font-semibold text-black mr-6 nav-item">
+      <NavLink to={"/"}>Home</NavLink>
+    </li>
+    <li className="text-lg font-semibold text-black mr-6 nav-item">
+      <NavLink to={"/about"}> About</NavLink>
+    </li>
+    <li className="text-lg font-semibold text-black mr-6 nav-item">
+      <NavLink to={"/work"}>Work</NavLink>
+    </li>
+    <li className="text-lg font-semibold text-black mr-6 nav-item">News</li>
+    <li className="text-lg font-semibold text-black mr-6 nav-item">Contact</li>
+    <li className="text-lg font-semibold text-black mr-6 nav-item"></li>
+  </>
+);
 export default Header;
