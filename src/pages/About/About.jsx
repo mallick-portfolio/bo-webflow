@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../../components/Banner.jsx";
+import { Banner, Philosophy } from "../../components";
 
 const About = () => {
   return (
@@ -8,6 +8,7 @@ const About = () => {
         title={"We specialize in problem solving"}
         headline={"About Bo Studio"}
       />
+      <Philosophy />
     </div>
   );
 };

@@ -2,7 +2,7 @@ import React from "react";
 
 const Philosophy = () => {
   return (
-    <div className="px-12 py-8 mt-36 mb-48 mx-auto">
+    <div className="px-12 py-8 mt-24 mb-48 mx-auto">
       <h4 className="text-lg font-medium text-secondary mb-8">
         Our Philosophy
       </h4>
