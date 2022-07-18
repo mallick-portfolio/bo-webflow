@@ -1,10 +1,14 @@
 import React from "react";
 import { Header } from "./components";
-
+import Home from "./pages/Home/Home.jsx";
+import { Routes, Route } from "react-router-dom";
 const App = () => {
   return (
     <div>
       <Header />
+      <Routes>
+        <Route path={"/"} element={<Home />} />
+      </Routes>
     </div>
   );
 };
