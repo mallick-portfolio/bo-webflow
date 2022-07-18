@@ -1,5 +1,10 @@
 import React from "react";
-import { AnimationText, Banner, Philosophy } from "../../components";
+import {
+  AnimationText,
+  Banner,
+  CategoryParallex,
+  Philosophy,
+} from "../../components";
 
 const Home = () => {
   return (
@@ -7,6 +12,7 @@ const Home = () => {
       <Banner />
       <Philosophy />
       <AnimationText />
+      <CategoryParallex />
     </div>
   );
 };

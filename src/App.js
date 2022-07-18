@@ -4,7 +4,7 @@ import Home from "./pages/Home/Home.jsx";
 import { Routes, Route } from "react-router-dom";
 const App = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Header />
       <Routes>
         <Route path={"/"} element={<Home />} />
