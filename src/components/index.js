@@ -3,3 +3,4 @@ export { default as Banner } from "./Banner.jsx";
 export { default as Philosophy } from "./Philosophy.jsx";
 export { default as AnimationText } from "./AnimationText.jsx";
 export { default as CategoryParallex } from "./CategoryParallex.jsx";
+export { default as Services } from "./Services.jsx";

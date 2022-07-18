@@ -4,6 +4,7 @@ import {
   Banner,
   CategoryParallex,
   Philosophy,
+  Services,
 } from "../../components";
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <Philosophy />
       <AnimationText />
       <CategoryParallex />
+      <Services />
     </div>
   );
 };
